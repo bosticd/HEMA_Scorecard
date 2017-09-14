@@ -184,4 +184,35 @@ label span {
   margin-bottom:1rem;
 }
 
+.fencer {
+  width:50%;
+  padding:2rem 1rem;
+  text-align: center;
+  color:white;
+}
+
+.fencer h4, .fencer h5, .fencer h6 {
+  margin-bottom:0;
+}
+
+.fencer h1 {
+  font-size:8rem;
+  font-weight:bold;
+}
+
+@media (max-width: 480px) {
+.fencer h1 {
+  font-size:4rem;
+}
+
+}
+
+.red {
+background-color:#EB5757;
+}
+
+.blue {
+  background-color:#1C6CD8;
+}
+
 
