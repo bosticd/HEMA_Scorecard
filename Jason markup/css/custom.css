@@ -96,6 +96,7 @@ li h5 {
 
 .lost {
   opacity:.4;
+  text-decoration:line-through;
 }
 
 
@@ -149,10 +150,20 @@ h2 {
 
 .tourney-menu-mobile {
    border-bottom:1px solid #2D9CDB;
-     margin-bottom:1rem;
+     margin-bottom:1.5rem;
   font-size:1rem;
 
 }
 
+.title-bar {
+  display:block;
+}
+
+.title-bar .login-link {
+  display:inline-block;
+  float:right;
+  color:white;
+  margin: 0 .5rem;
+}
 
 
