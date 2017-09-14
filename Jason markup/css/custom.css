@@ -15,6 +15,8 @@ a, a:visited {
   margin-top:1rem;
 }**/
 
+/**Match Styling **/
+
 .match-item {
   display:block;
   border-style:solid;
@@ -22,6 +24,10 @@ a, a:visited {
   border-color:#DDDDDD;
   margin-bottom:1rem;
 }
+
+/**.match-item:hover {
+  border-color:#2D9CDB;
+}**/
 
 .match-item a, .match-item a:visited {
   font-size:.875rem;
@@ -88,6 +94,9 @@ li h5 {
   font-weight: bold;
 }
 
+.lost {
+  opacity:.4;
+}
 
 
 .hero-title {
@@ -112,6 +121,38 @@ h2 {
   font-size:1rem;
 }
 
+.tourney-menu-large {
+  border-bottom:1px solid #2D9CDB;
+  margin-bottom:1rem;
+  font-size:1rem;
+}
+
+.tourney-menu-large li {
+  border-bottom:4px solid white;
+}
+
+.tourney-menu-large li.is-active a {
+  Background-color:white;
+  color:black;
+}
+
+
+.tourney-menu-large li.is-active {
+
+  border-bottom-color:#2D9CDB;
+}
+
+.dropdown .is-current a {
+  color:black;
+  font-weight:bold;
+}
+
+.tourney-menu-mobile {
+   border-bottom:1px solid #2D9CDB;
+     margin-bottom:1rem;
+  font-size:1rem;
+
+}
 
 
 
