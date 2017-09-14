@@ -176,8 +176,8 @@ label span {
   padding-bottom:.365rem;
 }
 
-button {
-  background-color:#2D9CDB;
+.login-button {
+  font-weight:bold;
 }
 
 
