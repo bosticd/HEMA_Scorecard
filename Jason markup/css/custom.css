@@ -166,4 +166,18 @@ h2 {
   margin: 0 .5rem;
 }
 
+label {
+  margin-bottom:.5rem;
+}
+
+label span {
+  display:inline-block;
+  font-weight:bold;
+  padding-bottom:.365rem;
+}
+
+button {
+  background-color:#2D9CDB;
+}
+
 
