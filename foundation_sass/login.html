@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <!--HERE'S THE NAVIGATION-->
+    <div class="title-bar" data-responsive-toggle="tourney-animated-menu" data-hide-for="xxlarge">
+        <button class="menu-icon" type="button" data-toggle></button>
+        <div class="title-bar-title">Menu</div>
+        <a href="#" class="login-link">Login</a>
+    </div>
+    <div class="top-bar" id="tourney-animated-menu" data-animate="hinge-in-from-top hinge-out-from-top">
+        <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li>
+                    <a href="#">Browse Tournaments</a>
+                    <ul class="menu vertical">
+                        <li><a href="#">SwordSquatch 2017</a></li>
+                        <li><a href="#">CombatCon 2017</a></li>
+                        <li><a href="#">Longpoint 2017</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--End NAVIGATION -->
+    <div class="hero-title">
+        <h1>Welcome to RingBoss</h1>
+        <h2>Please Log in</h2>
+    </div>
+    <div id="page-wrapper" class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div id="login-form" class="small-12 medium-6 large-4 cell">
+                <label>
+                    <span>User Type</span>
+                    <select name="logInType">
+                        <option value="3">Event Staff</option>
+                        <option value="4">Event Organizer</option>
+                        <option value="5">Software Administrator</option>
+                        <option value="2">Video Manager</option>
+                        <option value="-1">Analytics User</option>
+                    </select>
+                </label>
+                <label>
+                    <span>Event to Log Into</span>
+                    <select name="logInEventID">
+                        <option value="20">Sandstorm 2017</option>
+                        <option value="2">-----Test Event----- 0</option>
+                    </select>
+                </label>
+                <label>
+                    <span>Password</span>
+                <input type="password" name="password">
+                </label>
+                <input class="button large login-button small-12 cell" type="submit" name="logIn" value="Log in to event">
+            </div>
+        </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
