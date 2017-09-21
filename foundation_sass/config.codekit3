@@ -5169,7 +5169,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/app-min.css",
 		"oF": 0,
 		"oS": 3
@@ -5195,7 +5195,7 @@
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "js\/min\/app-min.js",
+		"oAP": "\/js\/app-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -5204,7 +5204,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/app-min-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -5212,7 +5212,7 @@
 		},
 	"\/js\/min\/app-min.js.map": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/js\/min\/app-min.js.map",
 		"oF": 0
 		},
@@ -5281,7 +5281,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "css\/app.css",
+		"oAP": "\/scss\/app.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -5295,7 +5295,8 @@
 	"creationDate": 527443116,
 	"displayValue": "foundation_sass",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-fry"
+	"iconImageName": "meme-fry",
+	"lastBuiltDate": 527696827
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -5551,7 +5552,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"buildFolderActive": 0,
-	"buildFolderName": "build",
+	"buildFolderName": "minified",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
