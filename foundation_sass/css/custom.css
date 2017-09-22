@@ -67,7 +67,6 @@ border-color:black;
   border-bottom:4px solid;
   padding-bottom:.5rem;
   height:100%;
-  border-bottom-color:#EB5757;
 }
 
 li.versus-item {
@@ -82,7 +81,6 @@ li.versus-item {
 
 .match-item li:last-child {
   float:right;
-  border-bottom-color:#1C6CD8;
 }
 
 li h5, li h6 {
